@@ -1,0 +1,22 @@
+@import "bootstrap";
+.copyright {
+ // background: url(lpflogo2.png) left no-repeat;
+  opacity: .50;
+  padding: 20px 80px 0 35px;
+  height: 67px;
+  font: normal 10px "DroidSansRegular", Verdana, sans-serif;
+  line-height: 16px;
+  margin-top: 15px;
+  color: #000000;
+  -webkit-transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+}
+.copyright:hover{
+  opacity: .5;
+}
+.news-item h1 a {
+  font: bold 12px "DroidSansBold", Verdana, sans-serif;
+  color: #717165;
+ // text-transform: uppercase;
+}

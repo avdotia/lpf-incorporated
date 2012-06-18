@@ -1,9 +1,18 @@
-<% provide(:title, 'Home') %>
+<div class="center hero-unit">
 <h1>lpf-incorporated</h1>
-<p>This is the home page for lpf-incorporated
+<h2>This is the home page for lpf-incorporated
 	<a href="/static_pages/help">help</a>
 	<a href="/static_pages/about">about</a>
 	<a href="/static_pages/contact">contact</a> 
 	<a href="/static_pages/projects">projects</a> 
-	</p>
+	<%= link_to "Projects!", '#', class: "btn btn-large btn-primary" %>
+</h2>
+</div>
+<section id="news" class="box">
+	<header><h1 class="script">Latest News</h1></header>
+	<article class="news-item">
+		<header><h1><a href="#">Proyecto 1</a></h1></header>
+	</article>
+</section>
+<%= link_to image_tag("lpflogo2.png", alt: "Home"), '/static_pages/home' %>
 	
