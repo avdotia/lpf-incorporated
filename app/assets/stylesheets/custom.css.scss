@@ -1,9 +1,9 @@
 @import "bootstrap";
 .copyright {
-  background: url(lpflogo2.png) left no-repeat;
+ // background: url(lpflogo2.png) left no-repeat;
   opacity: .50;
   padding: 20px 80px 0 100px;
-
+  float: left;
   height: 67px;
   font: normal 10px "DroidSansRegular", Verdana, sans-serif;
   line-height: 16px;
@@ -21,4 +21,16 @@
   color: #717165;
  // text-transform: uppercase;
 }
+
+#footer-nav ul li {
+  float: left;
+  margin-left: 100px;
+}
+#footer-nav ul {
+  float: left;
+  list-style: none;
+ // text-transform: uppercase;
+}
+
+
 
