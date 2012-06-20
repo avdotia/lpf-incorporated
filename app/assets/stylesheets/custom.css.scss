@@ -1,19 +1,44 @@
 @import "bootstrap";
-//#info{
+#button{
+  width: 5%;
+  max-height: 15px;
+}
+#info{
+ // position: absolute;
+ // width: 940px;
+
+  //max-height: 50px;
+ 
+
+
+
 //  margin-left: -160px;
 //  position: absolute;
 //  background: lightgrey;
 //  width: 100%;
-//}
+  background-color: lightgrey;
+
+
+  //  color: #333333;
+  //  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    //font-size: 13px;
+  //  line-height: 18px;
+//bottom: 0;
+//  right: 0;
+//  left: 0;
+
+}
 .copyright {
  // background: url(lpflogo2.png) left no-repeat;
+ margin-bottom: 0;
   opacity: .50;
-  padding: 20px 80px 0 100px;
-  float: left;
-  height: 67px;
+  padding: 0 0 0 410px;
+  
+ // float: center;
+ // height: 67px;
   font: normal 10px "DroidSansRegular", Verdana, sans-serif;
   line-height: 16px;
-  margin-top: 15px;
+  margin-top: -30px;
   color: #000000;
   -webkit-transition: opacity .3s ease-in-out;
   -moz-transition: opacity .3s ease-in-out;
@@ -23,20 +48,25 @@
   opacity: .5;
 }
 
-.news-item h1 a {
-  font: bold 12px "DroidSansBold", Verdana, sans-serif;
-  color: #717165;
- // text-transform: uppercase;
+#footer-nav {
+  margin-top: 450px;
 }
-
 #footer-nav ul li {
   float: left;
+  
   margin-left: 100px;
+  margin-right: 28px;
 }
 #footer-nav ul {
-  float: left;
+//  float: left;
   list-style: none;
   margin-top: 50px;
+
+   max-height: 40px;
+ //  background-color: lightgrey;
+   width: 940px;
+
+  min-height: 40px;
 
 //  border: 30px solid #fff;
  // text-transform: uppercase;
@@ -51,6 +81,7 @@
 }
 #projects ul{
     border: 30px solid lightgrey;
+    
 }
 #projects ul li{
   width: 316px;
@@ -95,6 +126,8 @@
   -o-transform: scale(1.1) rotate(-2deg);
   transform: scale(1.1) rotate(-2deg);
 }
+
+
 
 
 
