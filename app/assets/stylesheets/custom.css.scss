@@ -16,7 +16,7 @@
 //  position: absolute;
 //  background: lightgrey;
 //  width: 100%;
-  background-color: lightgrey;
+  background-color: #eee;
 
 
   //  color: #333333;
@@ -77,10 +77,10 @@
   float: left;
   width: 425px;
   margin-top: 15px;
-  background: lightgrey;
+  background-color: #eee;
 }
 #projects ul{
-    border: 30px solid lightgrey;
+    border: 30px solid #eee;
     
 }
 #projects ul li{
@@ -113,7 +113,8 @@
 }
 #photo {
   float: right;
-  border: 15px solid #fafaf6;
+ // border: 15px solid #fafaf6;
+ border: 15px solid #eee;
   width: 50%;
   -webkit-box-shadow: 0px 1px 1px #ccc;
   -moz-box-shadow: 0px 1px 1px #ccc;
@@ -121,13 +122,17 @@
  // background: url(torre.png) right no-repeat;
 }
 #photo:hover {
+  border: 15px solid #fafaf6;
+  box-shadow: 0px 1px 300px #000;
   -webkit-transform: scale(1.1) rotate(-2deg);
   -moz-transform: scale(1.1) rotate(-2deg);
   -o-transform: scale(1.1) rotate(-2deg);
   transform: scale(1.1) rotate(-2deg);
 }
 
-
+body{
+  background-color: lightgrey;
+}
 
 
 
