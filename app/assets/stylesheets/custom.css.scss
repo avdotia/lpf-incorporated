@@ -1,5 +1,10 @@
 @import "bootstrap";
-
+//#info{
+//  margin-left: -160px;
+//  position: absolute;
+//  background: lightgrey;
+//  width: 100%;
+//}
 .copyright {
  // background: url(lpflogo2.png) left no-repeat;
   opacity: .50;
@@ -17,6 +22,7 @@
 .copyright:hover{
   opacity: .5;
 }
+
 .news-item h1 a {
   font: bold 12px "DroidSansBold", Verdana, sans-serif;
   color: #717165;
@@ -31,9 +37,12 @@
   float: left;
   list-style: none;
   margin-top: 50px;
+
 //  border: 30px solid #fff;
  // text-transform: uppercase;
 }
+
+
 #projects{
   float: left;
   width: 425px;
