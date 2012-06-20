@@ -5,11 +5,18 @@
 </h2>
 </div>
 <section id="news" class="box">
-	<header><h1 class="script">Latest News</h1></header>
-	<article class="news-item">
-		<header><h1><a href="#">Proyecto 1</a></h1></header>
-	</article>
+	<div id="photo">
+    	<%= image_tag("torre.png") %>
+	</div>
+	<div id= "projects">
+		<header><h1 class="script">Latest News</h1></header>
+		<ul>
+			<li><span><b></b>Project 1</b></span> Estudiando Well-grounded Rubyist.<em>David A. Black</em></li>
+			<li><span>Project 2</span> Estudiando Learn Java for Android Development.<em>Jeff Friesen</em></li>
+			<li><span>Project 3</span> Esto</li>
+	</div>
 </section>
+
 
 <%= link_to image_tag("lpflogo2.png", alt: "Home"), root_path %>
 
